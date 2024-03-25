@@ -1,0 +1,29 @@
+* {
+	margin: 0;
+	box-sizing: border-box;
+}
+@mixin flex-center {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+@mixin flex {
+	display: flex;
+	align-items: center;
+}
+@mixin flex-justify {
+	display: flex;
+	justify-content: center;
+}
+@mixin flex-column {
+	display: flex;
+	flex-direction: column;
+}
+@mixin flex-wrap {
+	display: flex;
+	flex-wrap: wrap;
+}
+@mixin flex-around {
+	display: flex;
+	justify-content: space-around;
+}

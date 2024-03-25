@@ -1,0 +1,19 @@
+@import "_Variables";
+@import "../App.scss";
+
+.navbar {
+	background-color: $color-nav;
+	height: 80px;
+	ul {
+		@include flex-around;
+		font-family: "Roboto";
+		font-size: 20px;
+	}
+	li {
+		color: white;
+		list-style: none;
+		padding: 5px;
+		margin: 20px;
+		cursor: pointer;
+	}
+}
