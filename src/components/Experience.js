@@ -1,10 +1,4 @@
 const Experience = () => {
-	return (
-		<div>
-			<ul>
-				<li>experiencia</li>
-			</ul>
-		</div>
-	);
+	return <div></div>;
 };
 export default Experience;

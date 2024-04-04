@@ -1,10 +1,4 @@
 const Projects = () => {
-	return (
-		<div>
-			<ul>
-				<li>proyectos</li>
-			</ul>
-		</div>
-	);
+	return <div></div>;
 };
 export default Projects;
