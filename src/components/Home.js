@@ -8,9 +8,9 @@ import { IoMailOutline } from "react-icons/io5";
 const Home = () => {
 	return (
 		<section>
-			<h1 className="titulo-home">maria victoria diaz</h1>
+			<h1>maria victoria diaz</h1>
 			<h2>
-				i'm a
+				I'm a
 				<Typewriter
 					options={{
 						strings: ["Frontend Developer"],
@@ -21,14 +21,13 @@ const Home = () => {
 			</h2>
 			<div>
 				<a href={linkedin}>
-					<FaLinkedin fontSize={25} />
+					<FaLinkedin />
 				</a>
 				<a href={github}>
-					<FaGithub fontSize={25} />
+					<FaGithub />
 				</a>
-
 				<a href={mail}>
-					<IoMailOutline fontSize={25} />
+					<IoMailOutline />
 				</a>
 			</div>
 		</section>
