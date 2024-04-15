@@ -39,5 +39,7 @@ img {
 	.frameworks,
 	.tools {
 		@include flex-justify;
+		flex-wrap: wrap;
+		font-size: 70px;
 	}
 }
