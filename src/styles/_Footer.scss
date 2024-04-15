@@ -1,0 +1,11 @@
+@import "_Variables";
+@import "../App.scss";
+footer {
+	background-color: $color-nav;
+	height: 80px;
+	color: white;
+	@include flex-center;
+	p {
+		margin: 5px;
+	}
+}
