@@ -70,3 +70,20 @@ h1 {
 		background-color: $color-css;
 	}
 }
+.box-projects:hover {
+	background-color: #f7f7f7;
+}
+@media screen and (max-width: 768px) {
+	.container-projects {
+		justify-content: center;
+	}
+	.box-projects {
+		a {
+			color: black;
+			button {
+				width: 90px;
+				border-radius: 50px;
+			}
+		}
+	}
+}
