@@ -8,7 +8,7 @@ h1 {
 	margin: 5px;
 	@include flex-justify;
 }
-.concontainer-projects {
+.container-projects {
 	@include flex-wrap;
 }
 .box-projects {
@@ -56,5 +56,34 @@ h1 {
 	}
 	.mui {
 		background-color: $color-mui;
+	}
+	.js {
+		background-color: $color-js;
+	}
+	.html {
+		background-color: $color-html;
+	}
+	.bulma {
+		background-color: $color-bulma;
+	}
+	.css {
+		background-color: $color-css;
+	}
+}
+.box-projects:hover {
+	background-color: #f7f7f7;
+}
+@media screen and (max-width: 768px) {
+	.container-projects {
+		justify-content: center;
+	}
+	.box-projects {
+		a {
+			color: black;
+			button {
+				width: 90px;
+				border-radius: 50px;
+			}
+		}
 	}
 }
