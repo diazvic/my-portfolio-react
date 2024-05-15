@@ -1,3 +1,4 @@
+import "../styles/_Contact.scss";
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
 
@@ -49,7 +50,12 @@ const Contact = () => {
 						id="mensaje"
 					/>
 				</label>
-				<input type="submit" value="Enviar" id="input-enviado" />
+				<input
+					type="submit"
+					value="Enviar"
+					id="input-enviado"
+					className="boton-form"
+				/>
 			</form>
 		</div>
 	);
