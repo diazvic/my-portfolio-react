@@ -1,0 +1,44 @@
+@import "_Variables";
+@import "../App.scss";
+.form-contact {
+	background-image: url("../images/backgroundImage.jpeg");
+	background-size: 100vw 100vh;
+	background-attachment: fixed;
+	height: 100vh;
+	@include flex-center;
+	form {
+		width: 500px;
+		margin: auto;
+		background-color: rgba(0, 0, 0, 0.4);
+		padding: 10px 20px;
+		border-radius: 7px;
+		h1 {
+			color: #fff;
+			font-size: 30px;
+			margin-bottom: 20px;
+			margin: 0;
+		}
+		input,
+		textarea {
+			width: 100%;
+			font-size: 17px;
+			border: none;
+			border-radius: 5px;
+			padding: 7px;
+		}
+		textarea {
+			min-height: 100px;
+			max-height: 200px;
+			max-width: 100%;
+		}
+		.boton-form {
+			background-color: $color-nav;
+			color: #fff;
+			padding: 20px;
+			cursor: pointer;
+		}
+		.boton-form:hover {
+			background-color: #1b2430;
+		}
+	}
+}
