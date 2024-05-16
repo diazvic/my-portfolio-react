@@ -8,7 +8,7 @@ const Skills = () => {
 				Estos son algunos de los principales lenguajes, tecnologías,
 				herramientas y plataformas con los que he trabajado:
 			</p>
-			<h4>Languages</h4>
+			<h4>languages</h4>
 			<div className="languages">
 				<i className="devicon-html5-plain colored">
 					<p>html5</p>
