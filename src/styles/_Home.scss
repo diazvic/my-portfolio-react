@@ -10,10 +10,12 @@ section {
 		font-size: 50px;
 		font-weight: bold;
 	}
-	h2 {
-		font-family: $letra-principal;
-		font-size: 50px;
-		margin: 5px;
+	.typewriter-container {
+		h2 {
+			font-family: $letra-principal;
+			font-size: 50px;
+			margin: 5px;
+		}
 	}
 	div {
 		@include flex-justify;
@@ -27,11 +29,20 @@ section {
 		}
 	}
 }
-
 @media screen and (max-width: 768px) {
 	section {
 		h1 {
 			text-align: center;
+		}
+		.typewriter-container {
+			width: 100%;
+			overflow: hidden;
+			white-space: nowrap;
+			padding: 0.5em;
+			h2 {
+				font-size: 2.1875em;
+				text-align: center;
+			}
 		}
 	}
 }
