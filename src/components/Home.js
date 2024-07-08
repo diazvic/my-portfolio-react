@@ -9,16 +9,18 @@ const Home = () => {
 	return (
 		<section>
 			<h1>maria victoria diaz</h1>
-			<h2>
-				I'm a
-				<Typewriter
-					options={{
-						strings: ["Frontend Developer"],
-						autoStart: true,
-						loop: true,
-					}}
-				/>
-			</h2>
+			<div className="typewriter-container">
+				<h2>
+					I'm a
+					<Typewriter
+						options={{
+							strings: ["Frontend Developer"],
+							autoStart: true,
+							loop: true,
+						}}
+					/>
+				</h2>
+			</div>
 			<div>
 				<a href={linkedin}>
 					<FaLinkedin />
