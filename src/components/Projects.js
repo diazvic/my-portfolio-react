@@ -10,6 +10,11 @@ const Projects = () => {
 	return (
 		<>
 			<h1>projects</h1>
+			<p className="parrafo-proyectos">
+				Actualmente, estoy actualizando los proyectos que realicé durante el
+				bootcamp, migrándolos a React y adaptándolos a las tecnologías más
+				modernas.
+			</p>
 			<div className="container-projects">
 				<div className="box-projects">
 					<img src={buscadorPeliculas} alt="buscador de peliculas" />
