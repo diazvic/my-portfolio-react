@@ -8,6 +8,12 @@ h1 {
 	margin: 5px;
 	@include flex-justify;
 }
+.parrafo-proyectos {
+	text-align: center;
+	font-size: 1.25em;
+	font-family: $letra-principal;
+	margin: 0.5em auto;
+}
 .container-projects {
 	@include flex-wrap;
 }
@@ -74,6 +80,9 @@ h1 {
 	background-color: #f7f7f7;
 }
 @media screen and (max-width: 768px) {
+	.parrafo-proyectos {
+		font-size: 1.125em;
+	}
 	.container-projects {
 		justify-content: center;
 	}
