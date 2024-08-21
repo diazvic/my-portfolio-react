@@ -1,5 +1,5 @@
 
-# Mi Portaflio 👋👩‍💻 
+# Mi Portafolio 👋👩‍💻 
 
 
 ¡Bienvenido a mi portafolio ! Aquí encontrarás una colección de mis proyectos más destacados, que muestran mis habilidades en Desarrollo Web Frontend.
