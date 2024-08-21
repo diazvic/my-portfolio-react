@@ -31,15 +31,6 @@ const NavBar = () => {
 				<li>
 					<Link
 						className="links-navbar"
-						to="/experience"
-						onClick={handleLinkClick}
-					>
-						experience
-					</Link>
-				</li>
-				<li>
-					<Link
-						className="links-navbar"
 						to="/projects"
 						onClick={handleLinkClick}
 					>
